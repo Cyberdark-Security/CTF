@@ -12,9 +12,6 @@
 ## 📖 Introducción
 Bienvenido a mi repositorio personal de **CTF Writeups**. Aquí documento la resolución detallada de diversas máquinas de entrenamiento de ciberseguridad, enfocándome en técnicas de enumeración, explotación y escalada de privilegios.
 
-> [!TIP]
-> Puedes encontrar un análisis detallado sobre la seguridad y sugerencias de mejora de este repositorio en el [Informe de Auditoría](REPORT.md).
-
 ---
 
 ## 🗂️ Contenido del Repositorio
@@ -36,14 +33,6 @@ Bienvenido a mi repositorio personal de **CTF Writeups**. Aquí documento la res
 | **Upload** | Dockerlabs | [Ver PDF](./Machine%20-%20Upload%20-Dockerlabs.pdf) |
 | **Vias Ocultas** | CyberConquer | [Ver PDF](./Machine%20-%20Vias%20Ocultas%20-CyberConquer.pdf) |
 
----
-
-## 🚀 Próximos Pasos
-- [ ] Implementar estructura de carpetas por plataforma.
-- [ ] Migrar writeups de PDF a Markdown.
-- [ ] Añadir sección de "Herramientas Utilizadas".
-
----
 
 <p align="center">
   <b>Happy Hacking! 💻</b><br>
