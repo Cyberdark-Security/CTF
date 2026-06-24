@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0a0e0a"/>
+      <stop offset="50%" stop-color="#0d1a0d"/>
+      <stop offset="100%" stop-color="#0a0e0a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00ff41" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00ff41" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="280" fill="url(#bg)"/>
+  <rect width="1200" height="280" fill="url(#glow)"/>
+  <line x1="0" y1="1" x2="1200" y2="1" stroke="#00ff41" stroke-opacity="0.4" stroke-width="1"/>
+  <line x1="0" y1="279" x2="1200" y2="279" stroke="#00ff41" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="40" y="55" font-family="monospace" font-size="14" fill="#00ff4180">root@cyberdark:~#</text>
+  <text x="40" y="80" font-family="monospace" font-size="14" fill="#00ffff80">cat /etc/banner</text>
+  <text x="40" y="130" font-family="monospace" font-size="42" font-weight="bold" fill="#00ff41" filter="url(#textGlow)">CTF WRITEUPS</text>
+  <text x="40" y="165" font-family="monospace" font-size="18" fill="#00ffff">CYBERDARK // PENETRATION TESTING LOGS</text>
+  <text x="40" y="210" font-family="monospace" font-size="13" fill="#00ff4160">[ ENUM ] [ EXPLOIT ] [ PRIVESC ] [ DOCUMENTATION ]</text>
+  <text x="40" y="250" font-family="monospace" font-size="12" fill="#ffffff40">14 máquinas comprometidas · 3 plataformas · formato PDF · ES</text>
+  <circle cx="1160" cy="30" r="6" fill="#ff5f57"/>
+  <circle cx="1140" cy="30" r="6" fill="#febc2e"/>
+  <circle cx="1120" cy="30" r="6" fill="#28c840"/>
+  <rect x="1100" y="50" width="80" height="200" rx="4" stroke="#00ff4130" stroke-width="1" fill="none"/>
+  <text x="1110" y="80" font-family="monospace" font-size="10" fill="#00ff4160">STATUS</text>
+  <text x="1110" y="110" font-family="monospace" font-size="11" fill="#00ff41">Ï ONLINE</text>
+  <text x="1110" y="140" font-family="monospace" font-size="11" fill="#00ffff">Ï ACTIVE</text>
+  <text x="1110" y="170" font-family="monospace" font-size="11" fill="#ff5f57">Ï PWNED</text>
+  <text x="1110" y="210" font-family="monospace" font-size="10" fill="#ffffff30">v2.0</text>
+</svg>
