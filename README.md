@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="CYBERDARK CTF Writeups" width="100%"/>
+<img src="./assets/banner.png" alt="CYBERDARK CTF Writeups" width="100%"/>
 
 <br/><br/>
 
@@ -97,14 +97,16 @@
 
 ---
 
-## `root@cyberdark:~$` **nmap --stats**
+## `root@cyberdark:~$` **wc -l writeups/**
 
-```diff
-+ MiraSoyRoot .............. [████████████░░] 6/14  (42.9%)
-+ Dockerlabs ............... [████████░░░░░░] 4/14  (28.6%)
-+ CyberConquer ............. [████████░░░░░░] 4/14  (28.6%)
-+ Total comprometidas ...... [██████████████] 14/14 (100%)
-```
+Resumen rápido: **cuántas máquinas hay documentadas en cada plataforma**.
+
+| Plataforma | Writeups | Del total |
+|:---|:---:|:---:|
+| 🟢 **MiraSoyRoot** | 6 | 6 de 14 |
+| 🔵 **Dockerlabs** | 4 | 4 de 14 |
+| 🟣 **CyberConquer** | 4 | 4 de 14 |
+| **Total** | **14** | **14 writeups** |
 
 ---
 
